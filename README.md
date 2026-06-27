@@ -4,3 +4,4 @@ copy nvim to ~/.local/share/
 config goes in ~/.config/
 nixos goes in /etc/
 ```cp ./nixos/ /etc/nixos/```
+copy paste the vesktoptheme.css ig 
