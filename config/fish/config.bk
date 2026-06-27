@@ -1,0 +1,92 @@
+# =========================
+# Fish Config (clean setup)
+# =========================
+
+# ---- Environment ----
+set -gx EDITOR nvim
+set -gx VISUAL nvim
+
+# ---- PATH ----
+fish_add_path $HOME/.local/bin
+fish_add_path $HOME/bin
+
+# ---- Vi mode ----
+fish_vi_key_bindings
+
+# Optional: make cursor feel nicer in vi mode
+set fish_cursor_default block
+set fish_cursor_insert line
+set fish_cursor_replace_one underscore
+
+# ---- fastfetch on startup ----
+if status is-interactive
+	export NO_COLOR=1
+	fastfetch
+	#curl -s "wttr.in/houston?format=3"
+	#random choice "fastfetch" "curl -s wttr.in/houston" | source
+end
+
+# ---- eza (modern ls replacement) ----
+if command -q eza
+    alias ls="eza --icons --group-directories-first"
+    alias ll="eza -lah --icons --group-directories-first"
+    alias la="eza -A --icons --group-directories-first"
+    alias lt="eza --tree --level=2 --icons"
+else
+    alias ls="ls --color=auto"
+    alias ll="ls -lah"
+    alias la="ls -A"
+end
+
+# ---- git aliases ----
+alias gs="git status"
+alias gc="git commit"
+alias gp="git push"
+alias gpl="git pull"
+
+# ---- nix helpers ----
+alias rebuild="sudo nixos-rebuild switch"
+alias flakeup="nix flake update"
+alias dev="nix develop"
+
+# ---- small utilities ----
+function mkcd
+    mkdir -p $argv
+    cd $argv
+end
+
+function extract
+    for file in $argv
+        switch $file
+            case "*.tar.gz"
+                tar -xzf $file
+            case "*.tar.xz"
+                tar -xf $file
+            case "*.zip"
+                unzip $file
+            case "*"
+                echo "Don't know how to extract $file"
+        end
+    end
+end
+
+# ---- Prompt (clean + unique >) ----
+function fish_prompt
+    echo -n (whoami)
+
+    set_color normal
+    echo -n "@"
+
+    echo -n (prompt_hostname)
+
+    set_color normal
+    echo -n " "
+
+    echo -n (prompt_pwd)
+
+    set_color normal
+    echo -n " ❯ "   # unique prompt symbol
+end
+
+# ---- no greeting ----
+set fish_greeting ""

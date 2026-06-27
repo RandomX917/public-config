@@ -1,0 +1,49 @@
+#require("transparency")
+vim.cmd.colorscheme("tokyonight")
+
+require("lualine").setup()
+local ok, configs = pcall(require, "nvim-treesitter.configs")
+
+if ok then
+  configs.setup({
+    highlight = {
+      enable = true,
+    },
+  })
+end
+require("dashboard").setup({
+  theme = "doom",
+
+  config = {
+    header = {
+      "",
+      "███╗   ██╗██╗██╗  ██╗",
+      "████╗  ██║██║╚██╗██╔╝",
+      "██╔██╗ ██║██║ ╚███╔╝ ",
+      "██║╚██╗██║██║ ██╔██╗ ",
+      "██║ ╚████║██║██╔╝ ██╗",
+      "╚═╝  ╚═══╝╚═╝╚═╝  ╚═╝",
+      "",
+    },
+
+    center = {
+      {
+        icon = "󰈞 ",
+        desc = "Find File",
+        key = "f",
+        action = "Telescope find_files",
+      },
+      {
+        icon = "󰊄 ",
+        desc = "Recent Files",
+        key = "r",
+        action = "Telescope oldfiles",
+      },
+    },
+
+    footer = {
+      "",
+      "I use NixOS btw",
+    },
+  },
+})

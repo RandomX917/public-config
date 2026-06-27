@@ -1,0 +1,46 @@
+{
+  "layer": "bottom",
+  "position": "bottom",
+  "height": 36,
+  "spacing": 5,
+  "exclusive": true,
+  "gtk-layer-shell": true,
+  "passthrough": false,
+  "fixed-center": true,
+
+  "modules-left": [
+    "custom/rofi",
+    "hyprland/workspaces",
+    "hyprland/window"
+  ],
+  "modules-center": [
+    "mpris"
+  ],
+  "modules-right":[
+    "tray"
+  ],
+  "custom/rofi": {
+    "tooltip": false,
+    "on-click": "rofi -show drun",
+    "format": ""
+  },
+  "tray": {
+    "icon-size": 24,
+    "spacing": 5,
+    "show-passive-items":true
+  },
+  "mpris": {
+        "player": "spotify",
+    "dynamic-order": ["artist", "title"],
+    "format": "{player_icon} {dynamic}",
+    "format-paused": "{status_icon} <i>{dynamic}</i>",
+    "status-icons": {
+      "paused": ""
+    },
+    "player-icons": {
+      "default": ""
+    },
+        "max-length": 300
+  }
+  }
+}

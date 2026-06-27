@@ -1,0 +1,34 @@
+[ERROR 2026-06-13-19:33:44] .../plugins/start/neo-tree.nvim/lua/neo-tree/utils/init.lua:885: Error opening file: vim/_core/editor.lua:0: nvim_exec2()[1]..BufReadCmd Autocommands for "*.zip": Vim(call):E117: Unknown function: zip#Browse
+[ERROR 2026-06-14-00:15:56] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty
+[WARN  2026-06-14-16:11:56] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:381: Cannot copy /home/random/Downloads to itself
+[ERROR 2026-06-15-14:27:35] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty
+[ERROR 2026-06-16-21:24:38] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty
+[ERROR 2026-06-17-00:17:43] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty
+[ERROR 2026-06-17-00:17:43] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:772: Will not delete root node /home/random, please back out of the current directory if you want to delete the root node.
+[ERROR 2026-06-18-11:51:17] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:500: Error opening dir: EACCES: permission denied: /var/tmp/systemd-private-26ef28c65b2149308e7ef12a5d3fd9b7-wpa_supplicant.service-WCf4q2
+[ERROR 2026-06-18-11:51:18] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:500: Error opening dir: EACCES: permission denied: /var/tmp/systemd-private-26ef28c65b2149308e7ef12a5d3fd9b7-upower.service-HEEEg7
+[INFO  2026-06-18-11:51:27] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:235: Copied configuration3i4XFQK0.nix to clipboard
+[INFO  2026-06-18-11:51:27] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:235: Copied flakeVO6xHGnT.nix to clipboard
+[ERROR 2026-06-18-18:20:02] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty
+[ERROR 2026-06-18-18:20:03] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty
+[ERROR 2026-06-20-20:37:47] ...rt/neo-tree.nvim/lua/neo-tree/sources/common/preview.lua:87: Preview cannot be used without any space, please resize the neo-tree split to allow for at least 5 cells of free space.
+[ERROR 2026-06-22-00:22:12] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty
+[ERROR 2026-06-22-00:56:04] .../plugins/start/neo-tree.nvim/lua/neo-tree/utils/init.lua:885: Error opening file: vim/_core/editor.lua:0: nvim_exec2(), line 1: Vim(edit):E325: ATTENTION
+[ERROR 2026-06-24-19:09:00] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty
+[ERROR 2026-06-24-19:09:01] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty
+[ERROR 2026-06-24-19:09:01] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty
+[ERROR 2026-06-24-19:09:01] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty
+[ERROR 2026-06-24-19:09:01] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty
+[ERROR 2026-06-24-19:09:01] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty
+[ERROR 2026-06-24-19:09:01] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty
+[ERROR 2026-06-24-19:09:01] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty
+[ERROR 2026-06-24-19:09:01] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty
+[ERROR 2026-06-24-19:09:01] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty
+[ERROR 2026-06-24-19:09:01] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty
+[ERROR 2026-06-24-19:09:01] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty
+[ERROR 2026-06-24-19:09:01] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty
+[ERROR 2026-06-24-19:09:01] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty
+[ERROR 2026-06-24-19:09:01] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty
+[ERROR 2026-06-24-19:09:01] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty
+[ERROR 2026-06-24-19:09:01] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty
+[ERROR 2026-06-24-19:09:01] ...t/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:884: Can't undo, undostack is empty

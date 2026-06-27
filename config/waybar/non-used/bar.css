@@ -1,0 +1,49 @@
+* {
+  min-height: 0;
+  min-width: 0;
+  font-family: Lexend, "JetBrainsMono NFP";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+window#waybar {
+  background-color: rgba(17, 17, 27, 0.0);
+
+  border-top: 1px solid rgba(137, 180, 146, 0.6);
+  transition: background-color 0.3s ease;
+  color:#ffffff;
+}
+
+#custom-rofi
+#workspaces button
+#window{
+  padding: 0.3rem 0.6rem;
+  margin: 0.2rem 0.15rem;
+  border-radius: 10px;
+  
+  background-color: rgba(30, 30, 30, 0.25);
+  border: 1px solid rgba(255,255,255,0.0);
+  transition: all 0.2s ease;
+}
+#workspaces button {
+  color: #ffffff ;
+}
+#workspaces button:hover {
+  background-color: rgba(137, 180, 250, 0.25);
+  color: #0f0f0f
+}
+#workspaces button.active {
+  background-color: #0f0f0f ;
+  border-color: #ffffff ;
+  color: #ffffff;
+}
+#workspaces button.urgent {
+  background-color: #f38ba8;
+  color: #1e1e2e;
+}
+#tray {
+  background-color: rgba(30, 30, 30, 0.25);
+  border: 1px solid rgba(255,255,255,0.0);
+  border-radius: 10px;
+}
